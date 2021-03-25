@@ -13,6 +13,10 @@ public class PlayerController : MonoBehaviour
 
     public bool isGrounded;
 
+    private bool isAttacking;
+
+    public float cooldownMax, cooldown;
+
     Animator anim;
 
     public Vector2 lastMove;
@@ -29,15 +33,15 @@ public class PlayerController : MonoBehaviour
     
     void Update()
     {
-        Move();
+        if (!isAttacking) Move();
         Jump();
         Whip();
 
-        if (rb.velocity.magnitude > 0.1)
+        if (rb.velocity.magnitude > 0.1 && isGrounded)
         {
             anim.SetBool("PlayerMoving", true);
-            anim.SetFloat("Move X", Input.GetAxisRaw("Horizontal"));
-            anim.SetFloat("ClampMoveX", Input.GetAxisRaw("Horizontal"));
+            if (Input.GetAxisRaw("Horizontal") != 0) anim.SetFloat("Move X", Input.GetAxisRaw("Horizontal"));
+            if(Input.GetAxisRaw("Horizontal") != 0) anim.SetFloat("ClampMoveX", Input.GetAxisRaw("Horizontal"));
             lastMove = moveInput;
         }
         else
@@ -49,9 +53,24 @@ public class PlayerController : MonoBehaviour
 
     private void Whip()
     {
+        anim.SetBool("Attacking", false);
         if (Input.GetKeyDown(KeyCode.C))
         {
+            isAttacking = true;
             anim.SetBool("Attacking", true);
+            cooldown = cooldownMax;
+        }
+        if (isAttacking)
+        {
+            if (cooldown > 0)
+            {
+                cooldown -= Time.deltaTime;
+
+            }
+            else
+            {
+                isAttacking = false;
+            }
         }
     }
 
@@ -67,12 +86,10 @@ public class PlayerController : MonoBehaviour
     
     void Jump()
     {
+        anim.SetBool("IsJumping", !isGrounded);
         if (Input.GetKeyDown(KeyCode.Z) && isGrounded)
         {
           rb.velocity = new Vector2(rb.velocity.x, jump);
-          anim.SetBool("PlayerMoving", false);
-          anim.SetBool("IsJumping", true);
         }
-        anim.SetBool("IsJumping", false);
     }
 }

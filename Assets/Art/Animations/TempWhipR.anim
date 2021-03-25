@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TempWhipL
+  m_Name: TempWhipR
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -59,7 +59,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.33333334
-        value: -1.09
+        value: 1.68
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -68,7 +68,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5
-        value: -1.13
+        value: 1.76
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -87,34 +87,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.33333334
-        value: 0.03
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_Offset.y
-    path: Whip
-    classID: 61
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -124,7 +96,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.33333334
-        value: 1.59
+        value: 1.54
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -133,7 +105,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5
-        value: 1.74
+        value: 1.77
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -161,7 +133,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.33333334
-        value: 0.34
+        value: 0.33
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -175,19 +147,56 @@ AnimationClip:
     path: Whip
     classID: 61
     script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.09
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: 0.05
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Offset.y
+    path: Whip
+    classID: 61
+    script: {fileID: 0}
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -1652474429635774778, guid: 0978766ef2d3e8040b68ffac453d3ed6,
+      value: {fileID: 6367267656839043879, guid: baa37a49bb917684084e5856d2ca4802,
         type: 3}
     - time: 0.16666667
-      value: {fileID: 7103162938719898041, guid: 0978766ef2d3e8040b68ffac453d3ed6,
+      value: {fileID: 6445137726035985161, guid: baa37a49bb917684084e5856d2ca4802,
         type: 3}
     - time: 0.33333334
-      value: {fileID: -4504547878333467505, guid: 0978766ef2d3e8040b68ffac453d3ed6,
+      value: {fileID: -2531947663790844848, guid: baa37a49bb917684084e5856d2ca4802,
         type: 3}
     - time: 0.5
-      value: {fileID: 8006255595326821207, guid: 0978766ef2d3e8040b68ffac453d3ed6,
+      value: {fileID: 8869159494576907259, guid: baa37a49bb917684084e5856d2ca4802,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -216,13 +225,6 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 3579892557
-      attribute: 1872933342
-      script: {fileID: 0}
-      typeID: 61
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3579892557
       attribute: 4197328169
       script: {fileID: 0}
       typeID: 61
@@ -236,6 +238,13 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
+      path: 3579892557
+      attribute: 1872933342
+      script: {fileID: 0}
+      typeID: 61
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
       path: 0
       attribute: 0
       script: {fileID: 0}
@@ -243,10 +252,10 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -1652474429635774778, guid: 0978766ef2d3e8040b68ffac453d3ed6, type: 3}
-    - {fileID: 7103162938719898041, guid: 0978766ef2d3e8040b68ffac453d3ed6, type: 3}
-    - {fileID: -4504547878333467505, guid: 0978766ef2d3e8040b68ffac453d3ed6, type: 3}
-    - {fileID: 8006255595326821207, guid: 0978766ef2d3e8040b68ffac453d3ed6, type: 3}
+    - {fileID: 6367267656839043879, guid: baa37a49bb917684084e5856d2ca4802, type: 3}
+    - {fileID: 6445137726035985161, guid: baa37a49bb917684084e5856d2ca4802, type: 3}
+    - {fileID: -2531947663790844848, guid: baa37a49bb917684084e5856d2ca4802, type: 3}
+    - {fileID: 8869159494576907259, guid: baa37a49bb917684084e5856d2ca4802, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -310,7 +319,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.33333334
-        value: -1.09
+        value: 1.68
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -319,7 +328,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5
-        value: -1.13
+        value: 1.76
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -338,34 +347,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.33333334
-        value: 0.03
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_Offset.y
-    path: Whip
-    classID: 61
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -375,7 +356,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.33333334
-        value: 1.59
+        value: 1.54
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -384,7 +365,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5
-        value: 1.74
+        value: 1.77
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -412,7 +393,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.33333334
-        value: 0.34
+        value: 0.33
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -423,6 +404,43 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Size.y
+    path: Whip
+    classID: 61
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.09
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: 0.05
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Offset.y
     path: Whip
     classID: 61
     script: {fileID: 0}

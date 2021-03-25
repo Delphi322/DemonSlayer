@@ -1,28 +1,43 @@
 fileFormatVersion: 2
-guid: 9c942eff7c722094fb859246d56eecf6
+guid: baa37a49bb917684084e5856d2ca4802
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7564715532259391384
-    second: WalkJumpCrouchR_0
+      213: 8869159494576907259
+    second: WhipR_0
   - first:
-      213: -4831440743845658618
-    second: WalkJumpCrouchR_1
+      213: -2531947663790844848
+    second: WhipR_1
   - first:
-      213: 3635293255038163202
-    second: WalkJumpCrouchR_2
+      213: 6445137726035985161
+    second: WhipR_2
   - first:
-      213: 6734088536843310568
-    second: WalkJumpCrouchR_3
+      213: 6367267656839043879
+    second: WhipR_3
   - first:
-      213: 17620998639991477
-    second: WalkJumpCrouchR_4
+      213: -5671422269732729371
+    second: WhipR_4
   - first:
-      213: 3092870582269508744
-    second: WalkJumpCrouchR_5
+      213: 2257745469793659614
+    second: WhipR_5
   - first:
-      213: 357340908414871773
-    second: WalkJumpCrouchR_6
+      213: -1930208364351800488
+    second: WhipR_6
+  - first:
+      213: -7623700315987874397
+    second: WhipR_7
+  - first:
+      213: -3475892703417265110
+    second: WhipR_8
+  - first:
+      213: 5700639774054454916
+    second: WhipR_9
+  - first:
+      213: -834019652269705596
+    second: WhipR_10
+  - first:
+      213: -1601928946298521257
+    second: WhipR_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -82,7 +97,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -94,7 +109,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 512
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -106,7 +121,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
-    maxTextureSize: 512
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -118,7 +133,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: tvOS
-    maxTextureSize: 512
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -130,7 +145,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
-    maxTextureSize: 512
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -142,7 +157,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Lumin
-    maxTextureSize: 512
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -154,7 +169,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 512
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -166,7 +181,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 512
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -180,54 +195,159 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WalkJumpCrouchR_0
+      name: WhipR_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 5
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8688cc09d4bb40790800000000000000
-      internalID: -7564715532259391384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkJumpCrouchR_1
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 3
-        width: 16
-        height: 32
+        x: 1
+        y: 128
+        width: 80
+        height: 30
       alignment: 9
-      pivot: {x: 0.5, y: 0.75}
+      pivot: {x: 0.0875, y: 0.53333336}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6000bb5dd3643fcb0800000000000000
-      internalID: -4831440743845658618
+      spriteID: bf32a8ac195951b70800000000000000
+      internalID: 8869159494576907259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkJumpCrouchR_2
+      name: WhipR_1
       rect:
         serializedVersion: 2
-        x: 114
-        y: 3
-        width: 16
+        x: 92
+        y: 128
+        width: 81
+        height: 33
+      alignment: 9
+      pivot: {x: 0.16049382, y: 0.4848485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054ddddb307bcdcd0800000000000000
+      internalID: -2531947663790844848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipR_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 128
+        width: 38
+        height: 33
+      alignment: 9
+      pivot: {x: 0.6052632, y: 0.4848485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90308d03d9ab17950800000000000000
+      internalID: 6445137726035985161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipR_3
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 128
+        width: 30
+        height: 31
+      alignment: 9
+      pivot: {x: 0.6, y: 0.516129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b99bbd2341d5850800000000000000
+      internalID: 6367267656839043879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipR_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 81
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed47518e7f0b41b0800000000000000
+      internalID: -5671422269732729371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipR_5
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 66
+        width: 81
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda6c40fa8f155f10800000000000000
+      internalID: 2257745469793659614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipR_6
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 66
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bb25428b58635e0800000000000000
+      internalID: -1930208364351800488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipR_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 66
+        width: 30
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -236,20 +356,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2095ce074f7237230800000000000000
-      internalID: 3635293255038163202
+      spriteID: 3ad628764fc233690800000000000000
+      internalID: -7623700315987874397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkJumpCrouchR_3
+      name: WhipR_8
       rect:
         serializedVersion: 2
-        x: 163
-        y: 5
-        width: 16
-        height: 32
+        x: 3
+        y: 0
+        width: 78
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,20 +377,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e5539478d9447d50800000000000000
-      internalID: 6734088536843310568
+      spriteID: a241177900623cfc0800000000000000
+      internalID: -3475892703417265110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkJumpCrouchR_4
+      name: WhipR_9
       rect:
         serializedVersion: 2
-        x: 213
-        y: 5
-        width: 16
-        height: 32
+        x: 92
+        y: 0
+        width: 81
+        height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,20 +398,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ba3684743a9e3000800000000000000
-      internalID: 17620998639991477
+      spriteID: 4869af4dbadbc1f40800000000000000
+      internalID: 5700639774054454916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkJumpCrouchR_5
+      name: WhipR_10
       rect:
         serializedVersion: 2
-        x: 261
-        y: 5
-        width: 16
-        height: 32
+        x: 179
+        y: 0
+        width: 38
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,20 +419,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88cfd6868651cea20800000000000000
-      internalID: 3092870582269508744
+      spriteID: 486f4ca8b87fc64f0800000000000000
+      internalID: -834019652269705596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkJumpCrouchR_6
+      name: WhipR_11
       rect:
         serializedVersion: 2
-        x: 310
-        y: 5
-        width: 16
-        height: 32
+        x: 233
+        y: 0
+        width: 30
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,8 +440,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd8a8c5b9a785f400800000000000000
-      internalID: 357340908414871773
+      spriteID: 759f5785c1ec4c9e0800000000000000
+      internalID: -1601928946298521257
       vertices: []
       indices: 
       edges: []

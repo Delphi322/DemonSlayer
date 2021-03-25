@@ -18,7 +18,7 @@ public class Spikes : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        collision.gameObject.GetComponent<PlayerHealth>()?.TakeDamage(100);
+        if(collision.gameObject.tag == "Player")collision.gameObject.GetComponent<PlayerHealth>()?.TakeDamage(100);
     }
 
 }
