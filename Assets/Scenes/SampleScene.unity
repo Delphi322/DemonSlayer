@@ -5754,7 +5754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b707a67dad5e34438475c04b637a4df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ammo: 10
+  ammo: 2468
   isSub: 0
   ammoDisplay: {fileID: 547731819}
 --- !u!114 &1724506798
@@ -6414,7 +6414,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
