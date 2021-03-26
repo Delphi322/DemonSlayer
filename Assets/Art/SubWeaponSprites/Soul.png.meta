@@ -1,19 +1,34 @@
 fileFormatVersion: 2
-guid: 8d5ca078a9da2d84cbec068a902afc6a
+guid: f7b3a591a44311745ae159148b28ecdb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5467461919375410632
-    second: SmashR_0
+      213: -7260111474371800604
+    second: Soul_0
   - first:
-      213: 7796884885315277676
-    second: SmashR_1
+      213: 3714793262853902631
+    second: Soul_1
   - first:
-      213: -5605787779138953887
-    second: SmashR_2
+      213: 5261866064750109813
+    second: Soul_2
   - first:
-      213: 2535121667642612743
-    second: SmashR_3
+      213: 2839188522358434670
+    second: Soul_3
+  - first:
+      213: 5949046499566718118
+    second: Soul_4
+  - first:
+      213: 8405376442034624970
+    second: Soul_5
+  - first:
+      213: 6662264921088808745
+    second: Soul_6
+  - first:
+      213: -5853284491164530161
+    second: Soul_7
+  - first:
+      213: 797447436697986132
+    second: Soul_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -171,85 +186,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SmashR_0
+      name: Soul_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 47
-        width: 62
-        height: 47
-      alignment: 9
-      pivot: {x: 0.58064514, y: 0.3829787}
+        y: 20
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c5c857d5a350eb40800000000000000
-      internalID: 5467461919375410632
+      spriteID: 4e1d45c6417ee3b90800000000000000
+      internalID: -7260111474371800604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmashR_1
+      name: Soul_1
       rect:
         serializedVersion: 2
-        x: 62
-        y: 47
-        width: 62
-        height: 47
-      alignment: 9
-      pivot: {x: 0.59677416, y: 0.3829787}
+        x: 10
+        y: 20
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6354d75e79143c60800000000000000
-      internalID: 7796884885315277676
+      spriteID: 721db6e6ac89d8330800000000000000
+      internalID: 3714793262853902631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmashR_2
+      name: Soul_2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574ec1dae47e50940800000000000000
+      internalID: 5261866064750109813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b6a8d1be2d66720800000000000000
+      internalID: 2839188522358434670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac84fe95424f8250800000000000000
+      internalID: 5949046499566718118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_5
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 10
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac919e62755e5a470800000000000000
+      internalID: 8405376442034624970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 62
-        height: 47
-      alignment: 9
-      pivot: {x: 0.24193548, y: 0.3829787}
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16d523237bd3432b0800000000000000
-      internalID: -5605787779138953887
+      spriteID: 9275b05c5ae157c50800000000000000
+      internalID: 6662264921088808745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmashR_3
+      name: Soul_7
       rect:
         serializedVersion: 2
-        x: 62
+        x: 10
         y: 0
-        width: 62
-        height: 47
-      alignment: 9
-      pivot: {x: 0.12903225, y: 0.3829787}
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70cdb3e99bf8e2320800000000000000
-      internalID: 2535121667642612743
+      spriteID: f0ac5de64c4f4cea0800000000000000
+      internalID: -5853284491164530161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454ed67f73a111b00800000000000000
+      internalID: 797447436697986132
       vertices: []
       indices: 
       edges: []
