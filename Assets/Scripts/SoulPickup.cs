@@ -18,10 +18,10 @@ public class SoulPickup : MonoBehaviour
         
     }
 
-    public void OnTriggerEnter2D(Collider2D collision)
+   /* public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player") collision.gameObject.GetComponent<AmmoDisplay>()?.ammo(1);
         Destroy(gameObject);
 
-    }
+    }*/
 }
