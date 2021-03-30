@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
 
     public bool isGrounded;
 
-    private bool isAttacking;
+    public bool isAttacking;
 
     public float cooldownMax, cooldown;
 

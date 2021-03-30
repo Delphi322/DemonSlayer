@@ -21,6 +21,7 @@ public class AmmoDisplay : MonoBehaviour
     
     void Update()
     {
+
         ammoDisplay.text = ammo.ToString();
         if (Input.GetKeyDown(KeyCode.F) && !isSub && ammo > 0)
         {
