@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: bf528a2d1643061438013c895b032304
+guid: 25d174126f43aa045ab0e968ae1b27f6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1191291956855602725
-    second: ThrowL_0
+      213: -8616898440192721424
+    second: AxeThrow_0
   - first:
-      213: -6336675133253221921
-    second: ThrowL_1
+      213: 933783062579735407
+    second: AxeThrow_1
   - first:
-      213: 6566592818954232416
-    second: ThrowL_2
+      213: -4160509438483828672
+    second: AxeThrow_2
   - first:
-      213: -3531705807040148122
-    second: ThrowL_3
+      213: -8850691106395426145
+    second: AxeThrow_3
   - first:
-      213: 1379129445868880114
-    second: ThrowL_4
+      213: 2870913060740680068
+    second: AxeThrow_4
   - first:
-      213: -2416998126078942656
-    second: ThrowL_5
+      213: 4365857295706648265
+    second: AxeThrow_5
   - first:
-      213: -7830815937807512185
-    second: ThrowL_6
+      213: -3605490400684512492
+    second: AxeThrow_6
   - first:
-      213: -136818425286508673
-    second: ThrowL_7
+      213: 1519410682505346747
+    second: AxeThrow_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -85,7 +85,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 256
+    maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -97,7 +97,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 256
+    maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -111,169 +111,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ThrowL_0
+      name: AxeThrow_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 62
-        width: 23
-        height: 32
-      alignment: 9
-      pivot: {x: 0.39130434, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52e782819b1588010800000000000000
-      internalID: 1191291956855602725
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ThrowL_1
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 62
-        width: 16
-        height: 32
+        y: 44
+        width: 22
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd104691a8b9f08a0800000000000000
-      internalID: -6336675133253221921
+      spriteID: 0fdf1bed580aa6880800000000000000
+      internalID: -8616898440192721424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThrowL_2
+      name: AxeThrow_1
       rect:
         serializedVersion: 2
-        x: 93
-        y: 62
-        width: 21
-        height: 32
-      alignment: 9
-      pivot: {x: 0.6666667, y: 0.5}
+        x: 22
+        y: 44
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 062e566a069312b50800000000000000
-      internalID: 6566592818954232416
+      spriteID: f6b675e7fb675fc00800000000000000
+      internalID: 933783062579735407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThrowL_3
+      name: AxeThrow_2
       rect:
         serializedVersion: 2
-        x: 142
-        y: 62
-        width: 21
-        height: 32
-      alignment: 9
-      pivot: {x: 0.6666667, y: 0.5}
+        x: 44
+        y: 44
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66d0030c74cdcfec0800000000000000
-      internalID: -3531705807040148122
+      spriteID: 040f28285b6e246c0800000000000000
+      internalID: -4160509438483828672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThrowL_4
+      name: AxeThrow_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92779ae4570c2580800000000000000
+      internalID: -8850691106395426145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AxeThrow_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 22
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4894a7ec73887d720800000000000000
+      internalID: 2870913060740680068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AxeThrow_5
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 22
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce64a24414a69c30800000000000000
+      internalID: 4365857295706648265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AxeThrow_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 23
-        height: 32
+        width: 22
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f0cb409ce6a32310800000000000000
-      internalID: 1379129445868880114
+      spriteID: 41b6e125599b6fdc0800000000000000
+      internalID: -3605490400684512492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThrowL_5
+      name: AxeThrow_7
       rect:
         serializedVersion: 2
-        x: 50
-        y: 0
-        width: 16
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 042a7489209157ed0800000000000000
-      internalID: -2416998126078942656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ThrowL_6
-      rect:
-        serializedVersion: 2
-        x: 93
+        x: 22
         y: 0
         width: 22
-        height: 31
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78d048dd46a535390800000000000000
-      internalID: -7830815937807512185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ThrowL_7
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 0
-        width: 22
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f7fb11afd5ce91ef0800000000000000
-      internalID: -136818425286508673
+      spriteID: bbe3aae27f7061510800000000000000
+      internalID: 1519410682505346747
       vertices: []
       indices: 
       edges: []

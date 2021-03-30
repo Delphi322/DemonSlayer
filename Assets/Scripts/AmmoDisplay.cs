@@ -13,12 +13,6 @@ public class AmmoDisplay : MonoBehaviour
 
     public Text ammoDisplay;
 
-    void Start()
-    {
-        
-    }
-
-    
     void Update()
     {
 
