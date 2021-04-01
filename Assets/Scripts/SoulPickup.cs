@@ -8,9 +8,9 @@ public class SoulPickup : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player" && collision.gameObject.GetComponent<AmmoDisplay>() != null) 
+        if (collision.gameObject.tag == "Player" && collision.gameObject.GetComponent<WeaponContainer>() != null) 
         {
-            collision.gameObject.GetComponent<AmmoDisplay>().ammo++;
+            collision.gameObject.GetComponent<WeaponContainer>().ammo++;
             Destroy(gameObject);
         }
     }

@@ -5,6 +5,11 @@ using UnityEngine.UI;
 
 public class WeaponContainer : MonoBehaviour
 {
+    public float speed;
+
+    public Transform firePoint;
+
+    public GameObject axeYeet;
 
     public int ammo;
 
@@ -34,6 +39,7 @@ public class WeaponContainer : MonoBehaviour
 
     void Update()
     {
+        ammoDisplay.text = ammo.ToString();
         switch (wepNumb)
         {
             case 0: break;
@@ -54,11 +60,11 @@ public class WeaponContainer : MonoBehaviour
         anim.SetBool("Mm", false);
         if (Input.GetKeyDown(KeyCode.F) && !isSub && ammo > 0)
         {
-            isAttacking = true;
-            anim.SetBool("Mm", true);
             isSub = true;
             ammo--;
             isSub = false;
+            isAttacking = true;
+            anim.SetBool("Mm", true);
             cooldown = cooldownMax;
         }
         if (isAttacking)
@@ -70,6 +76,7 @@ public class WeaponContainer : MonoBehaviour
             }
             else
             {
+                
                 isAttacking = false;
             }
         }
@@ -103,8 +110,16 @@ public class WeaponContainer : MonoBehaviour
             }
             else
             {
+                
                 isAttacking = false;
             }
         }
+    }
+
+    public void ThrowAxe()
+    {
+        GameObject thisYeet = Instantiate(axeYeet);
+        thisYeet.transform.position = firePoint.position;
+        thisYeet.GetComponent<Rigidbody2D>().velocity = firePoint.forward * speed;
     }
 }

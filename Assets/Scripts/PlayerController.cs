@@ -53,15 +53,17 @@ public class PlayerController : MonoBehaviour
 
     private void Whip()
     {
-        anim.SetBool("Attacking", false);
+        
         if (Input.GetKeyDown(KeyCode.C))
         {
+            if (isGrounded) rb.velocity = Vector2.zero;
             isAttacking = true;
             anim.SetBool("Attacking", true);
             cooldown = cooldownMax;
         }
         if (isAttacking)
         {
+            if (isGrounded) rb.velocity = Vector2.zero;
             if (cooldown > 0)
             {
                 cooldown -= Time.deltaTime;
@@ -70,6 +72,7 @@ public class PlayerController : MonoBehaviour
             else
             {
                 isAttacking = false;
+                anim.SetBool("Attacking", false);
             }
         }
     }
