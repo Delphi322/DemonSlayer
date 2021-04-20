@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
         Jump();
         Whip();
 
-        if (rb.velocity.magnitude > 0.1 && isGrounded)
+       /* if (rb.velocity.magnitude > 0.1 && isGrounded)
         {
             anim.SetBool("PlayerMoving", true);
             if (Input.GetAxisRaw("Horizontal") != 0) anim.SetFloat("Move X", Input.GetAxisRaw("Horizontal"));
@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
         else
         {
             anim.SetBool("PlayerMoving", false);
-        }
+        }*/
 
     }
 
@@ -79,11 +79,26 @@ public class PlayerController : MonoBehaviour
 
     void Move()
     {
-        if(isGrounded)
+        if(Input.GetAxisRaw("Horizontal") == 0)
         {
-          float x = Input.GetAxisRaw("Horizontal");
-          float moveBy = x * speed;
-          rb.velocity = new Vector2(moveBy, rb.velocity.y);
+            anim.SetBool("PlayerMoving", false);
+            if (isGrounded) rb.velocity = new Vector2(0, rb.velocity.y);
+            return;
+        }
+        else if(isGrounded)
+        {
+            anim.SetBool("PlayerMoving", true);
+            float x = Input.GetAxisRaw("Horizontal");
+            float moveBy = x * speed;
+            rb.velocity = new Vector2(moveBy, rb.velocity.y);
+
+            if (lastMove.x >= 0)
+                transform.eulerAngles = new Vector2(0, 180);
+            else
+                transform.eulerAngles = Vector2.zero;
+
+            lastMove.x = x;
+
         }
     }
     
