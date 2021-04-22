@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
 
     public bool isAttacking;
 
+    public bool isDead;
+
     public float cooldownMax, cooldown;
 
     Animator anim;
@@ -36,6 +38,7 @@ public class PlayerController : MonoBehaviour
         if (!isAttacking) Move();
         Jump();
         Whip();
+        Death();
 
        /* if (rb.velocity.magnitude > 0.1 && isGrounded)
         {
@@ -109,5 +112,16 @@ public class PlayerController : MonoBehaviour
         {
           rb.velocity = new Vector2(rb.velocity.x, jump);
         }
+    }
+
+    void Death()
+    {
+        if (GetComponent<PlayerHealth>().health <= 0)
+        {
+            Debug.Log("Aeiou");
+            anim.SetBool("Dead", true);
+        }  
+        else
+            anim.SetBool("Dead", false);
     }
 }

@@ -120,7 +120,7 @@ public class WeaponContainer : MonoBehaviour
     {
         GameObject thisYeet = Instantiate(axeYeet);
         thisYeet.transform.position = firePoint.position;
-        thisYeet.GetComponent<Rigidbody2D>().velocity = firePoint.forward * speed;
+        thisYeet.GetComponent<AxeSpeed>().SetData(firePoint.forward * speed);
         if(GetComponent<PlayerController>().lastMove.x >= 0)
             thisYeet.GetComponent<SpriteRenderer>().flipX = true;
         else
