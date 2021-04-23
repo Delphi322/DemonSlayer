@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -19,7 +20,7 @@ public class PlayerController : MonoBehaviour
 
     public float cooldownMax, cooldown;
 
-    Animator anim;
+    public Animator anim;
 
     public Vector2 lastMove;
     public float ClampMoveX;
@@ -38,7 +39,7 @@ public class PlayerController : MonoBehaviour
         if (!isAttacking) Move();
         Jump();
         Whip();
-        Death();
+       // Death();
 
        /* if (rb.velocity.magnitude > 0.1 && isGrounded)
         {
@@ -114,14 +115,15 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void Death()
+   /* void Death()
     {
         if (GetComponent<PlayerHealth>().health <= 0)
         {
             Debug.Log("Aeiou");
             anim.SetBool("Dead", true);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }  
         else
             anim.SetBool("Dead", false);
-    }
+    }*/
 }
