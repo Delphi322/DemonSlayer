@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
         if (!isAttacking) Move();
         Jump();
         Whip();
-       // Death();
+        DontDestroyOnLoad(transform.gameObject);
 
        /* if (rb.velocity.magnitude > 0.1 && isGrounded)
         {
@@ -57,7 +57,6 @@ public class PlayerController : MonoBehaviour
 
     private void Whip()
     {
-        
         if (Input.GetKeyDown(KeyCode.C))
         {
             if (isGrounded) rb.velocity = Vector2.zero;
@@ -114,16 +113,4 @@ public class PlayerController : MonoBehaviour
           rb.velocity = new Vector2(rb.velocity.x, jump);
         }
     }
-
-   /* void Death()
-    {
-        if (GetComponent<PlayerHealth>().health <= 0)
-        {
-            Debug.Log("Aeiou");
-            anim.SetBool("Dead", true);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }  
-        else
-            anim.SetBool("Dead", false);
-    }*/
 }
