@@ -39,7 +39,8 @@ public class PlayerController : MonoBehaviour
         if (!isAttacking) Move();
         Jump();
         Whip();
-        DontDestroyOnLoad(transform.gameObject);
+        //DontDestroyOnLoad(transform.gameObject);
+        TempDeath();
 
        /* if (rb.velocity.magnitude > 0.1 && isGrounded)
         {
@@ -111,6 +112,14 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Z) && isGrounded)
         {
           rb.velocity = new Vector2(rb.velocity.x, jump);
+        }
+    }
+
+    void TempDeath()
+    {
+        if (GetComponent<PlayerHealth>().health <= 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
