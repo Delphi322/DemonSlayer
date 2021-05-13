@@ -27,6 +27,8 @@ public class WeaponContainer : MonoBehaviour
 
     public float cooldownMax, cooldown;
 
+    private SFXManager sfxMan;
+
     private void Start()
     {
         foreach (GameObject icon in icons)
@@ -35,6 +37,7 @@ public class WeaponContainer : MonoBehaviour
         }
 
         anim = GetComponent<Animator>();
+        sfxMan = FindObjectOfType<SFXManager>();
     }
 
     void Update()
@@ -65,6 +68,7 @@ public class WeaponContainer : MonoBehaviour
             isSub = false;
             isAttacking = true;
             anim.SetBool("Mm", true);
+            sfxMan.playerSword.Play();
             cooldown = cooldownMax;
         }
         if (isAttacking)

@@ -26,11 +26,14 @@ public class PlayerController : MonoBehaviour
     public float ClampMoveX;
     public Vector2 moveInput;
 
+    private SFXManager sfxMan;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         lastMove = new Vector2(0, 0);
+        sfxMan = FindObjectOfType<SFXManager>();
     }
 
     
@@ -64,6 +67,7 @@ public class PlayerController : MonoBehaviour
             isAttacking = true;
             anim.SetBool("Attacking", true);
             cooldown = cooldownMax;
+            sfxMan.playerAttack.Play();
         }
         if (isAttacking)
         {
