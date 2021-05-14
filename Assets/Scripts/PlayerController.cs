@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     public Vector2 lastMove;
     public float ClampMoveX;
     public Vector2 moveInput;
-
+    Vector2 jumpVel = new Vector2(0,0);
     private SFXManager sfxMan;
 
     void Start()
@@ -112,11 +112,19 @@ public class PlayerController : MonoBehaviour
     
     void Jump()
     {
+        
         anim.SetBool("IsJumping", !isGrounded);
         if (Input.GetKeyDown(KeyCode.Z) && isGrounded)
         {
-          rb.velocity = new Vector2(rb.velocity.x, jump);
+            jumpVel = new Vector2(rb.velocity.x, jump);
+            rb.velocity = jumpVel;
         }
+        else if(!isGrounded)
+        {
+            jumpVel.y = rb.velocity.y;
+            rb.velocity = jumpVel;
+        }
+        
     }
 
     void TempDeath()
