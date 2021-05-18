@@ -6,7 +6,6 @@ public class HurtEnemy : MonoBehaviour
 {
 
     public int damageToGive;
-    public GameObject damageBurst;
     public Transform hitPoint;
 
     void OnTriggerEnter2D(Collider2D other)

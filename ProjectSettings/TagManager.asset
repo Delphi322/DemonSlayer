@@ -9,6 +9,7 @@ TagManager:
   - Whip
   - Respawn Point
   - Enemy
+  - EnemyCollision
   layers:
   - Default
   - TransparentFX

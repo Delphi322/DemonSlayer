@@ -29,6 +29,12 @@ public class WeaponContainer : MonoBehaviour
 
     private SFXManager sfxMan;
 
+    public int damageToGiveSword;
+    public Transform hitPointSword;
+
+    public int damageToGiveAxe;
+    public Transform hitPointAxe;
+
     private void Start()
     {
         foreach (GameObject icon in icons)
