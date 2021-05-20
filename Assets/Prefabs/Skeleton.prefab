@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1423363673242153227}
   - component: {fileID: 1423363673242153226}
   - component: {fileID: 1423363673242153225}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -73,9 +73,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 960572671
-  m_SortingLayer: 3
-  m_SortingOrder: 15
+  m_SortingLayerID: 1898472995
+  m_SortingLayer: 4
+  m_SortingOrder: 0
   m_Sprite: {fileID: 4354231566380549168, guid: 27b3b422d01e5df418dc458202f2f29e,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

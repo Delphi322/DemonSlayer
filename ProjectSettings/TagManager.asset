@@ -10,6 +10,7 @@ TagManager:
   - Respawn Point
   - Enemy
   - EnemyCollision
+  - Sword
   layers:
   - Default
   - TransparentFX
@@ -19,8 +20,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Enemy
+  - Player
   - 
   - 
   - 
@@ -55,4 +56,7 @@ TagManager:
     locked: 0
   - name: Ground
     uniqueID: 960572671
+    locked: 0
+  - name: Enemy Walls
+    uniqueID: 1898472995
     locked: 0

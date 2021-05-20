@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HurtEnemy : MonoBehaviour
+public class HurtEnemyAxe : MonoBehaviour
 {
-
     public int damageToGive;
     public Transform hitPoint;
 
@@ -16,3 +15,4 @@ public class HurtEnemy : MonoBehaviour
         }
     }
 }
+    

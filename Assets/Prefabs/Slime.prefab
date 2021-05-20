@@ -16,7 +16,8 @@ GameObject:
   - component: {fileID: 3251921682796822013}
   - component: {fileID: 3251921682796822012}
   - component: {fileID: 3251921682796822015}
-  m_Layer: 0
+  - component: {fileID: 212476219202010282}
+  m_Layer: 8
   m_Name: Slime
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -73,9 +74,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 960572671
-  m_SortingLayer: 3
-  m_SortingOrder: 15
+  m_SortingLayerID: 1898472995
+  m_SortingLayer: 4
+  m_SortingOrder: 0
   m_Sprite: {fileID: -7282886668606283007, guid: 807c51377e7e9fb4eb07cb36c9d34b08,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -199,3 +200,17 @@ MonoBehaviour:
   timeBetweenMove: 2
   timeToMove: 2
   waitToReload: 1
+--- !u!114 &212476219202010282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3251921682796822003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56096371483ad174ea7090b275f3b9ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealthS: 10
+  CurrentHealthS: 10

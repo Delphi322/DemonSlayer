@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: 8969066591235523244}
   - component: {fileID: 6838306807056790928}
   - component: {fileID: 4556585508967288706}
-  m_Layer: 0
+  - component: {fileID: -1284806282958362986}
+  m_Layer: 1
   m_Name: AxeYeet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,3 +179,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f241dd9dd9dc5124887b05f1d228c979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-1284806282958362986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212736139922387906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4437e5d2d11df2b40ae3940496cd04c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageToGive: 4
+  hitPoint: {fileID: 5877071213711400162}

@@ -74,13 +74,4 @@ public class EnemyMovement : MonoBehaviour
 
 
     }
-
-    public void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "EnemyCollision")
-        {
-            myRigidbody.velocity = Vector3.zero;
-            Debug.Log("Awa awa");
-        }
-    }
 }
