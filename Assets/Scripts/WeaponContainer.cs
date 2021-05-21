@@ -11,6 +11,10 @@ public class WeaponContainer : MonoBehaviour
 
     public GameObject axeYeet;
 
+    public Transform slashPoint;
+
+    public GameObject swordYeet;
+
     public int ammo;
 
     public bool isSub;
@@ -131,15 +135,14 @@ public class WeaponContainer : MonoBehaviour
             thisYeet.GetComponent<SpriteRenderer>().flipX = false;
     }
 
-    public int damageToGiveS;
-    public Transform hitPoint;
-
-    void OnTriggerEnter2D(Collider2D other)
+    public void SwordSlash()
     {
-        if (other.gameObject.tag == "Enemy")
-        {
-            other.gameObject.GetComponent<EnemyHealthManagerS>().HurtEnemy(damageToGiveS);
-        }
-
+        GameObject thatYeet = Instantiate(swordYeet);
+        thatYeet.transform.position = slashPoint.position;
+        thatYeet.GetComponent<AxeSpeed>().SetData(slashPoint.forward * speed);
+        if (GetComponent<PlayerController>().lastMove.x >= 0)
+            thatYeet.GetComponent<SpriteRenderer>().flipX = true;
+        else
+            thatYeet.GetComponent<SpriteRenderer>().flipX = false;
     }
 }

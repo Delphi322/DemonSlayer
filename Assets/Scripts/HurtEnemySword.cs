@@ -9,12 +9,9 @@ public class HurtEnemySword : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Sword")
+        if (other.gameObject.tag == "Enemy")
         {
-            if (other.gameObject.tag == "Enemy")
-            {
-                other.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageToGive);
-            }
+            other.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageToGive);
         }
     }
 }
