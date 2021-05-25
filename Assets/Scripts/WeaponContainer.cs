@@ -139,10 +139,15 @@ public class WeaponContainer : MonoBehaviour
     {
         GameObject thatYeet = Instantiate(swordYeet);
         thatYeet.transform.position = slashPoint.position;
-        thatYeet.GetComponent<AxeSpeed>().SetData(slashPoint.forward * speed);
         if (GetComponent<PlayerController>().lastMove.x >= 0)
+        {
             thatYeet.GetComponent<SpriteRenderer>().flipX = true;
+            thatYeet.transform.Rotate(0, 180, 0);
+        }
+
         else
+        {
             thatYeet.GetComponent<SpriteRenderer>().flipX = false;
+        }
     }
 }
