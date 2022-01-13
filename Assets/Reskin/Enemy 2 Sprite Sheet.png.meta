@@ -1,16 +1,19 @@
 fileFormatVersion: 2
-guid: 9ab48900b6aabc34f861f968fcce258c
+guid: 9cc37596436afe04980f86a28d64407a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4401592451391998111
-    second: floatyplatform (1)_0
+      213: -5922222332364180100
+    second: Enemy 2 Sprite Sheet_0
   - first:
-      213: -4781157019916854160
-    second: floatyplatform (1)_1
+      213: -7934864305166299378
+    second: Enemy 2 Sprite Sheet_1
   - first:
-      213: 4396006129702506570
-    second: floatyplatform (1)_2
+      213: 5154467219453380802
+    second: Enemy 2 Sprite Sheet_2
+  - first:
+      213: -3954278546615820223
+    second: Enemy 2 Sprite Sheet_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -97,42 +100,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 1024
     resizeAlgorithm: 0
@@ -148,13 +115,76 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: floatyplatform (1)_0
+      name: Enemy 2 Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 20.666666
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c753c8e7a2a00dda0800000000000000
+      internalID: -5922222332364180100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy 2 Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 34
+        width: 20.666666
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fc2a584f2b1e190800000000000000
+      internalID: -7934864305166299378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy 2 Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 34
+        width: 20.666666
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c80ae560a8588740800000000000000
+      internalID: 5154467219453380802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy 2 Sprite Sheet_3
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 10
+        width: 20.666666
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,50 +192,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1673db07cf66ae2c0800000000000000
-      internalID: -4401592451391998111
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: floatyplatform (1)_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07c9d74a50be5adb0800000000000000
-      internalID: -4781157019916854160
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: floatyplatform (1)_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a409b5fa840c10d30800000000000000
-      internalID: 4396006129702506570
+      spriteID: 140240ecc949f19c0800000000000000
+      internalID: -3954278546615820223
       vertices: []
       indices: 
       edges: []

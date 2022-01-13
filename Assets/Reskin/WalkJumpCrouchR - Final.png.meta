@@ -1,16 +1,28 @@
 fileFormatVersion: 2
-guid: 9ab48900b6aabc34f861f968fcce258c
+guid: 1252e3e246dcb0344b679f185104ec2c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4401592451391998111
-    second: floatyplatform (1)_0
+      213: -2245439745443702909
+    second: WalkJumpCrouchR - Final_0
   - first:
-      213: -4781157019916854160
-    second: floatyplatform (1)_1
+      213: 8486774148772828684
+    second: WalkJumpCrouchR - Final_1
   - first:
-      213: 4396006129702506570
-    second: floatyplatform (1)_2
+      213: -609542988020256389
+    second: WalkJumpCrouchR - Final_2
+  - first:
+      213: 7255001821851827055
+    second: WalkJumpCrouchR - Final_3
+  - first:
+      213: 4765713119825093285
+    second: WalkJumpCrouchR - Final_4
+  - first:
+      213: -6544169891924273204
+    second: WalkJumpCrouchR - Final_5
+  - first:
+      213: -3111225444212873205
+    second: WalkJumpCrouchR - Final_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -74,7 +86,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -86,55 +98,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 1024
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
     maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -148,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: floatyplatform (1)_0
+      name: WalkJumpCrouchR - Final_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 10
+        width: 48.857143
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +126,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1673db07cf66ae2c0800000000000000
-      internalID: -4401592451391998111
+      spriteID: 387d848c27896d0e0800000000000000
+      internalID: -2245439745443702909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: floatyplatform (1)_1
+      name: WalkJumpCrouchR - Final_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 48
         y: 0
-        width: 16
-        height: 10
+        width: 48.857143
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,20 +147,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07c9d74a50be5adb0800000000000000
-      internalID: -4781157019916854160
+      spriteID: c06929a9f1417c570800000000000000
+      internalID: 8486774148772828684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: floatyplatform (1)_2
+      name: WalkJumpCrouchR - Final_2
       rect:
         serializedVersion: 2
-        x: 32
+        x: 96
         y: 0
-        width: 16
-        height: 10
+        width: 48.857143
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,8 +168,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a409b5fa840c10d30800000000000000
-      internalID: 4396006129702506570
+      spriteID: b71f8b3c1e77a87f0800000000000000
+      internalID: -609542988020256389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkJumpCrouchR - Final_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48.857143
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b3a44e7b1fea460800000000000000
+      internalID: 7255001821851827055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkJumpCrouchR - Final_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 48.857143
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2e79825d6332240800000000000000
+      internalID: 4765713119825093285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkJumpCrouchR - Final_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48.857143
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc71c02e7207e25a0800000000000000
+      internalID: -6544169891924273204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkJumpCrouchR - Final_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 48.857143
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08e88541f4b2d4d0800000000000000
+      internalID: -3111225444212873205
       vertices: []
       indices: 
       edges: []
